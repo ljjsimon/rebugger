@@ -16,4 +16,4 @@ telnet 127.0.0.1 1234
 ```
 php tclient.php
 ```
-将 tclient.php 里面的代码复制到要测试的线上服务器即可
+将 tclient.php 里面的代码改变 ip，a 的值，添加到要测试的线上服务器即可
