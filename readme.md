@@ -4,6 +4,7 @@ HTTP 接收到请求后会转给 TCP
 TCP 接受到的所有数据都会被广播给所有客户端
 
 ### 使用方法
+本地部署
 ```
 git clone https://github.com/questionlin/rebugger.git
 cd rebugger
@@ -11,7 +12,8 @@ composer install
 php start.php start
 telnet 127.0.0.1 1234
 ```
-另一个终端
+另一个终端运行
 ```
 php tclient.php
 ```
+将 tclient.php 里面的代码复制到要测试的线上服务器即可
